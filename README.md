@@ -8,4 +8,4 @@ It does not calculate a local verdict. The page calls the deployed `InvoiceProof
 `node scripts/check-site.mjs`
 
 ## Deployment
-Publish the `docs/` folder with GitHub Pages. Before a production workflow, deploy `InvoiceProof` on Studio and paste its contract address in the app.
+Publish the `docs/` folder with GitHub Pages. The live app defaults to the deployed Studio `InvoiceProof` contract at `0x98c5c2972AE8D4d1Dd49c558d8B24AA55432f580` and requires GenLayer Studio (chain ID `61999`) before enabling a transaction.
